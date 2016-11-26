@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say(`Bonjour, tu viens discuter du bot de Bricool ? Pour le voir en action, il faut aller sur leur page Fb, pour discuter de ce que notre équipe Lion a fait et pensé, vous êtes au bon endroit ;) \n %[CONTINUE](postback:lol) `)
+            return bot.say(`Bonjour, je m'appelle CYOP, pour Choose Your Own Path, et je peux te raconter une histoire dont tu es le héros ;) \n Commence simplement par la page 0 en cliquant sur le bouton correspondant. Navigues entre les pages en cliquant sur le bouton correspondant ou en tapant le numéro de page souhaité.\n %[0](postback:lol) `)
                 .then(() => 'speak');
         }
     },
