@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say(`Bonjour, je m'appelle CYOP, pour Choose Your Own Path, et je peux te raconter une histoire dont tu es le héros ;) \n Commence simplement par la page 0 en cliquant sur le bouton correspondant. Navigues entre les pages en cliquant sur le bouton correspondant ou en tapant le numéro de page souhaité.\n %[0](postback:lol) `)
+            return bot.say(`Bonjour, je m'appelle CYOP, pour Choose Your Own Path, et je peux te raconter une histoire dont tu es le héros ;) \n Navigues entre les pages en cliquant sur le bouton correspondant ou en tapant le numéro de page souhaité.\n %[0](postback:lol) `)
                 .then(() => 'speak');
         }
     },
